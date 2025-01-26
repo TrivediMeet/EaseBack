@@ -108,7 +108,7 @@ function MyTable({
       <table className="w-full">
         <thead>
           {table.getHeaderGroups().map(headerGroup => (
-            <tr key={headerGroup.id} className="border-b border-slate-300">
+            <tr key={headerGroup.id} className="border-b border-slate-500">
               {headerGroup.headers.map(header => {
                 return (
                   <th key={header.id} className="text-left bg-gray-50 rounded-t-md p-4" colSpan={header.colSpan}>

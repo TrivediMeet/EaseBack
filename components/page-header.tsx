@@ -7,7 +7,7 @@ import {
   } from '@clerk/nextjs'
   import Image from 'next/image'
   import { Button } from "@/components/ui/button"
-//   import HeaderMenu from "@/components/header-menu"
+  import HeaderMenu from "@/components/header-menu"
   
   const PageHeader = () => {
     return (
@@ -25,7 +25,7 @@ import {
                 </SignUpButton>
               </SignedOut>
               <SignedIn>
-                {/* <HeaderMenu /> */}
+                <HeaderMenu />
                 <UserButton />
               </SignedIn>
             </div>
