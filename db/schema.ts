@@ -27,7 +27,7 @@ export const feedbacks = pgTable("feedbacks", {
   userName: text("user_name"),
   userEmail: text("user_email"),
   message: text("message"),
-  // rating: integer("rating"),
+  rating: integer("rating"),
 
 });
 
