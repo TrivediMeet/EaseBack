@@ -3,10 +3,12 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import Link from "next/link";
 import { ChevronLeft } from "lucide-react";
 
-const page = ({ params }: {
+const Page = async ({
+  params,
+}: {
   params: {
-    projectId: string
-  }
+    projectId: string;
+  };
 }) => {
   if (!params.projectId) return (<div>Invalid Project ID</div>);
   if (!process.env.WIDGET_URL) return (<div>Missing WIDGET_URL</div>);
@@ -45,4 +47,4 @@ const page = ({ params }: {
   );
 };
 
-export default page;
+export default Page;
