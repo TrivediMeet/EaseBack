@@ -1,6 +1,6 @@
 import { db } from "@/db";
 import { projects } from "@/db/schema";
-import { auth, currentUser } from "@clerk/nextjs/server";
+import { auth } from "@clerk/nextjs/server";
 import NewProjBtn from "@/components/new-proj";
 import { eq } from "drizzle-orm";
 import ProjectsList from "./projects-list";

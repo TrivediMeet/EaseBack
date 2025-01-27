@@ -4,7 +4,6 @@ import { projects as dbProjects } from "@/db/schema";
 import Link from "next/link";
 import { Globe, ChevronLeft, Code } from 'lucide-react';
 import Table from "@/components/table";
-import HeaderMenu from "@/components/header-menu";
 
 
 const page = async ({ params }: {
