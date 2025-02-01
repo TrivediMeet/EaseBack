@@ -24,7 +24,6 @@ const page = async ({ params }: {
 
   return (
     <div>
-      
       <div>
         <Link href="/dashboard" className="flex items-center text-indigo-700 mb-5 w-fit"><ChevronLeft className="h-5 w-5 mr-1" /><span className="text-lg">Back to projects</span></Link>
       </div>
